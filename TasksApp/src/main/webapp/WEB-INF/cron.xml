@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/SendDailyEmail</url>
+    <description>daily email sending job</description>
+    <schedule>every day 09:00</schedule>
+    <retry-parameters>
+      <min-backoff-seconds>2.5</min-backoff-seconds>
+      <max-doublings>5</max-doublings>
+    </retry-parameters>
+    <timezone>Asia/Bahrain</timezone>
+  </cron>
+</cronentries>
